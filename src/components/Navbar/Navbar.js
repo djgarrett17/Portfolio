@@ -21,7 +21,7 @@ function Navbar() {
 
     $(document).scroll(function() {
       var y = $(this).scrollTop();
-      if (y > 280) {
+      if (y > 250) {
         $("#navbar").css({"height": "0px"});
       } else {
           $("#navbar").css({"height": "100px"});
