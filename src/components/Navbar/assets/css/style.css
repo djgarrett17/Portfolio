@@ -1,0 +1,227 @@
+#navbar {
+    position: fixed;
+    top: 0;
+    z-index: 98;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    /* background-color: transparent; */
+
+    overflow: hidden;
+    color: whitesmoke;
+    height: 150px;
+    /* transition: 0.4s; */
+    
+    width: 100%;
+    
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navLogoDiv{
+    display: flex;
+    /* flex-direction: column;
+    text-align: center; */
+    margin-left: 40px;
+    
+    
+}
+.navLogoDivLink{
+    text-decoration: none;
+}
+/* .navLogoBigTxt{
+    width: 150px;
+    font-size: 20px;
+    color: rgb(202, 18, 18);
+    font-family: 'Noto Serif', serif;
+}
+.navLogoSmallTxt{
+    width: 150px;
+    font-size: 15px;
+    color: white;
+    font-family: 'Noto Serif', serif;
+} */
+#navImage1{
+    height: 300px;
+    width: 200px;
+
+}
+
+
+
+/* #navLogo{
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    width: 80px;
+    z-index: 99;
+} */
+.homeMenu{
+   margin-right: 40px;
+   width: 100%;
+   display: flex;
+   justify-content: flex-end;
+}
+.homeNav{
+    font-size:  medium;
+    letter-spacing: .5px;
+    text-decoration: none;
+    color: rgb(83, 83, 83);
+    /* margin: 0px 10px; */
+}
+
+.homeNav:hover{
+    color: white;
+    filter: brightness(300%);
+    text-decoration: underline;
+}
+/* #homeId{
+
+} 
+#aboutId{
+    
+} */
+
+/* mobile nav */
+.mailDiv{
+    display: none;
+}
+.mailIcon{
+    
+    color: black;
+}
+/* #mail{
+    margin-right: 20px;
+
+} */
+.mobileMailDiv{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0px 40px;
+}
+
+.modal{
+    transition: all .5s ease-in;
+    /* display: none; */
+    position: fixed; 
+    z-index: 99; 
+    right: 0;
+    top: 0;
+    width: 270px; 
+    height: 0%; 
+    overflow: auto; 
+    background-color: rgb(28, 95, 124);
+    color: white;
+    justify-content: flex-end;
+    /* align-items: center; */
+}
+.modalContent{
+    display: flex;
+    flex-direction: row-reverse;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+.close{
+    font-size: 75px;
+    /* align-self: flex-end; */
+    /* justify-self: flex-end; */
+    margin-right: 20px;
+}
+.mobileMenu{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 300px;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+.mobileNav{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.mobile{
+    margin: 20px 0px;
+}
+.modalLogo{
+    display: flex;
+    justify-content: space-between;
+}
+#modal-logo{
+    width: 40%;
+    padding: 30px;
+}
+
+/* @media only screen and (max-width: 1025px){
+    .homeMenu{
+        display: none;
+    }
+    #menu{
+        display: block;
+    }
+    
+} */
+
+/* @media only screen and (max-width: 420px){
+    .navBar{
+        height: 20px;
+    }
+    .navLogoDiv{
+        margin: 0px 20px;
+    }
+} */
+
+@media only screen and (max-width: 450px){
+    .mailDiv{
+        display: flex;
+        margin-right: 30px;
+        margin-bottom: -3px;
+
+    }
+    .homeMenu{
+        display: none;
+    }
+    .navLogoDiv{
+        margin-left: 30px;
+    }
+    /* #navImage1{
+        height: 40px;
+        width: 110px;
+    
+    } */
+    /* .navLogoDiv{
+        margin: 0px 20px;
+    } */
+    /* #home{
+        display: none;
+    }
+    #navLogo{
+        width: 50px;
+        height: 60px;
+    }
+    #shop{
+        font-size: 14px;
+    }
+    #cartIcon{
+        width: 32px;
+        height: 32px;
+    }
+    #storeIcon{
+        width: 32px;
+        height: 32px;
+    } */
+    
+}
+
+/* @media only screen and (max-width: 374px){
+    .navWrap{
+        height: 100px;
+        
+    }
+} */

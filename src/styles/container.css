@@ -1,0 +1,38 @@
+html,
+body {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  /* background: rgb(225, 225, 228); */
+
+}
+ul{
+  padding: 0;
+  margin: 0;
+}
+
+/* .transition{
+  -moz-transition: all 1s ease-in;
+  -o-transition: all 1s ease-in;
+  -webkit-transition: all 1s ease-in;
+  transition: all 1s ease-in;
+}
+.midtransition{
+  -moz-transition: all .3s ease-in;
+  -o-transition: all .3s ease-in;
+  -webkit-transition: all .3s ease-in;
+  transition: all .3s ease-in; 
+} */
+
+
+
+
+
+/* 
+#bigLogo{
+  position: absolute;
+  z-index: -1;
+
+} */

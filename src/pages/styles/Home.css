@@ -1,0 +1,40 @@
+.homeWrap{
+    width: 100% !important;
+    height: 100%;
+    /* overflow: hidden; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+}
+.titleTxt{
+    font-size: xx-large;
+    
+}
+.carouselDiv{
+    height: 400px;
+    margin-top: 250px; 
+    width: 100%;
+    margin-bottom: -80px;
+}
+.carouselMobile{
+    display: none;
+}
+
+@media only screen and (max-width: 768px){
+.carouselDesktop{
+    display: none;
+}
+.carouselMobile{
+    display: flex;
+}
+.carouselDiv{
+    margin-top: 180px; 
+    margin-bottom: -160px;
+}
+}
+
+
+
+
+
