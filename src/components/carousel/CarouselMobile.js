@@ -15,7 +15,7 @@ class MyCarouselMobile extends Component {
       background: 'black',
       color: 'white',
       fontSize: '12px',
-      textTransform: 'uppercase',
+     
       borderRadius: '5px',
       display: "flex",
       flexDirection: "column",
@@ -74,7 +74,7 @@ class MyCarouselMobile extends Component {
         <div style={ MyCarouselMobile.CARD_STYLE }>
           <a style={ MyCarouselMobile.INNER_CARD_STYLE } target="_blank" href="https://adjective.media">
             <img src="./assets/images/adj-02.png" height="50px"/>
-            <p>adjective.media</p>
+            <p>ADJECTIVE.MEDIA</p>
           </a>
           <div style={ MyCarouselMobile.CARD_DESC_STYLE }>
             <p>The website of a web development start up company</p>
@@ -83,7 +83,7 @@ class MyCarouselMobile extends Component {
         <div style={ MyCarouselMobile.CARD_STYLE }>
           <a style={ MyCarouselMobile.INNER_CARD_STYLE } target="_blank" href="https://kingpong.co">
             <img src="./assets/images/weblogo.png" height="50px"/>
-            <p>kingpong.co</p>
+            <p>KINGPONG.CO</p>
           </a>
           <div style={ MyCarouselMobile.CARD_DESC_STYLE }>
             <p>The website of King Pong LLC, an online table tennis business</p>
@@ -92,7 +92,7 @@ class MyCarouselMobile extends Component {
         <div style={ MyCarouselMobile.CARD_STYLE }>
           <Link style={ MyCarouselMobile.INNER_CARD_STYLE } to="/mailchimp">
             <img src="./assets/images/MailchimpImage.png" height="50px"/> 
-            <p>MailChimp Project</p>
+            <p>MAILCHIMP PROJECT</p>
           </Link>
           <div style={ MyCarouselMobile.CARD_DESC_STYLE }>
             <p>A newsletter campaign created using Mailchimp</p>
@@ -101,7 +101,7 @@ class MyCarouselMobile extends Component {
         <div style={ MyCarouselMobile.CARD_STYLE }>
           <a style={ MyCarouselMobile.INNER_CARD_STYLE } target="_blank" href="https://covid-19inreal-time.com">
             <img src="./assets/images/covid-title-red-white-no-bkgd.png" height="50px"/>
-            <p>covid-19inreal-time.com</p>
+            <p>COVID-19INREAL-TIME.COM</p>
           </a>
           <div style={ MyCarouselMobile.CARD_DESC_STYLE }>
             <p>The website of a published book about COVID-19</p>

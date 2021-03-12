@@ -45,7 +45,6 @@ class MyCarouselMailchimpMobile extends Component {
       justifyContent: "center",
       alignItems: "center",
       textAlign: "center",
-      textTransform: 'uppercase',
       
     //   margin: "auto"
     };
@@ -73,7 +72,7 @@ class MyCarouselMailchimpMobile extends Component {
         <div style={ MyCarouselMailchimpMobile.CARD_STYLE }>
           <a style={ MyCarouselMailchimpMobile.INNER_CARD_STYLE } target="_blank" href="https://adjective.media">
             <img src="./assets/images/AutoEmail.png" height="50px"/>
-            <p>Automated Newsletter</p>
+            <p>AUTOMATED NEWSLETTER</p>
           </a>
           <div style={ MyCarouselMailchimpMobile.CARD_DESC_STYLE }>
             <p>Set up an automatic newsletter for new subscribers</p>
@@ -82,7 +81,7 @@ class MyCarouselMailchimpMobile extends Component {
         <div style={ MyCarouselMailchimpMobile.CARD_STYLE }>
           <a style={ MyCarouselMailchimpMobile.INNER_CARD_STYLE } target="_blank" href="https://kingpong.co">
             <img src="./assets/images/KingPongAd.png" height="50px"/>
-            <p>Digital Ads</p>
+            <p>DIGITAL ADS</p>
           </a>
           <div style={ MyCarouselMailchimpMobile.CARD_DESC_STYLE }>
             <p>Ran digital ads through Instagram and Facebook</p>
@@ -91,7 +90,7 @@ class MyCarouselMailchimpMobile extends Component {
         <div style={ MyCarouselMailchimpMobile.CARD_STYLE }>
           <a style={ MyCarouselMailchimpMobile.INNER_CARD_STYLE } target="_blank" href="https://kingpong.co">
             <img src="./assets/images/ABtest.png" height="50px"/>
-            <p>A/B Testing</p>
+            <p>A/B TESTING</p>
           </a>
           <div style={ MyCarouselMailchimpMobile.CARD_DESC_STYLE }>
             <p>Conducted an A/B Test testing which subtitle works best</p>

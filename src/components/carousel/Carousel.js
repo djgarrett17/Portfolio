@@ -45,7 +45,7 @@ class MyCarousel extends Component {
       flexDirection: "column",
       justifyContent: "center",
       alignItems: "center",
-      textTransform: 'uppercase',
+      
       
     //   margin: "auto"
     };
@@ -74,7 +74,7 @@ class MyCarousel extends Component {
         <div style={ MyCarousel.CARD_STYLE }>
           <a style={ MyCarousel.INNER_CARD_STYLE } target="_blank" href="https://adjective.media">
             <img src="./assets/images/adj-02.png" height="80px"/>
-            <p>adjective.media</p>
+            <p>ADJECTIVE.MEDIA</p>
           </a>
           <div style={ MyCarousel.CARD_DESC_STYLE }>
             <p>The website of a web development start up company</p>
@@ -83,7 +83,7 @@ class MyCarousel extends Component {
         <div style={ MyCarousel.CARD_STYLE }>
           <a style={ MyCarousel.INNER_CARD_STYLE } target="_blank" href="https://kingpong.co">
             <img src="./assets/images/weblogo.png" height="80px"/>
-            <p>kingpong.co</p>
+            <p>KINGPONG.CO</p>
           </a>
           <div style={ MyCarousel.CARD_DESC_STYLE }>
             <p>The website of King Pong LLC, an online table tennis business</p>
@@ -92,7 +92,7 @@ class MyCarousel extends Component {
         <div style={ MyCarousel.CARD_STYLE }>
           <Link style={ MyCarousel.INNER_CARD_STYLE } to="/mailchimp">
             <img src="./assets/images/MailchimpImage.png" height="80px"/>
-            <p>MailChimp Project</p>
+            <p>MAILCHIMP PROJECT</p>
           </Link>
           <div style={ MyCarousel.CARD_DESC_STYLE }>
             <p>A newsletter campaign created using Mailchimp</p>
@@ -101,7 +101,7 @@ class MyCarousel extends Component {
         <div style={ MyCarousel.CARD_STYLE }>
           <a style={ MyCarousel.INNER_CARD_STYLE } target="_blank" href="https://covid-19inreal-time.com">
             <img src="./assets/images/covid-title-red-white-no-bkgd.png" height="80px"/>
-            <p>covid-19inreal-time.com</p>
+            <p>COVID-19INREAL-TIME.COM</p>
           </a>
           <div style={ MyCarousel.CARD_DESC_STYLE }>
             <p>The website of a published book about COVID-19</p>
