@@ -59,7 +59,7 @@ class MyCarousel extends Component {
       justifyContent: "center",
       alignItems: "center",
       textAlign: "center",
-      textTransform: 'lowercase',
+      
 
       
     //   margin: "auto"
@@ -70,7 +70,7 @@ class MyCarousel extends Component {
   render() {
     return (
         <div style={MyCarousel.CONTAINER_STYLE}>
-      <ReactCardCarousel autoplay={ true } autoplay_speed={ 4000 } spread="wide">
+      <ReactCardCarousel autoplay={ true } autoplay_speed={ 6000 } spread="wide">
         <div style={ MyCarousel.CARD_STYLE }>
           <a style={ MyCarousel.INNER_CARD_STYLE } target="_blank" href="https://adjective.media">
             <img src="./assets/images/adj-02.png" height="80px"/>
