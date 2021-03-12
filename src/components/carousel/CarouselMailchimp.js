@@ -59,6 +59,7 @@ class MyCarouselMailchimp extends Component {
       justifyContent: "center",
       alignItems: "center",
       textAlign: "center",
+      textTransform: 'lowercase',
 
       
     //   margin: "auto"
@@ -69,7 +70,7 @@ class MyCarouselMailchimp extends Component {
   render() {
     return (
         <div style={MyCarouselMailchimp.CONTAINER_STYLE}>
-      <ReactCardCarousel autoplay={ false } autoplay_speed={ 3500 } spread="wide">
+      <ReactCardCarousel autoplay={ true } autoplay_speed={ 4000 } spread="wide">
         <div style={ MyCarouselMailchimp.CARD_STYLE }>
           <a style={ MyCarouselMailchimp.INNER_CARD_STYLE } target="_blank" href="https://adjective.media">
             <img src="./assets/images/AutoEmail.png" height="80px"/>
