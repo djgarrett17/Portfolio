@@ -114,10 +114,8 @@ class MyCarouselMailchimpMobile extends Component {
             <p>EMAIL TEMPLATES</p>
           </a>
           <div style={ MyCarouselMailchimpMobile.CARD_DESC_STYLE }>
-            <span>Developed email templates with HTML:</span>
-            <a style={ MyCarouselMailchimpMobile.LINK_STYLE } href="https://flamboyant-ardinghelli-d63e76.netlify.app/index.html"><span>Shop Template</span></a>
-            <a style={ MyCarouselMailchimpMobile.LINK_STYLE } href="https://flamboyant-ardinghelli-d63e76.netlify.app/emailtemplate2.html"><span>News Template</span></a>
-            <a style={ MyCarouselMailchimpMobile.LINK_STYLE } href="https://flamboyant-ardinghelli-d63e76.netlify.app/emailtemplate3.html"><span>Story Template</span></a>
+            <p>Developed email templates with HTML:</p>
+            <a style={ MyCarouselMailchimpMobile.LINK_STYLE } href="https://flamboyant-ardinghelli-d63e76.netlify.app/index.html"><span>View Templates</span></a>
           </div>
         </div>
       </ReactCardCarousel>
