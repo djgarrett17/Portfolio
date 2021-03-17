@@ -10,7 +10,8 @@ import Home from './pages/Home.js';
 import Mailchimp from './pages/Mailchimp.js';
 
 
-const App = ({ location }) => {
+
+const App = () => {
 
   return (
     // <Router>
@@ -19,10 +20,10 @@ const App = ({ location }) => {
       <div style={Container}>
         {/* <Modal/> */}
         <Navbar />
-        <Switch location={location}>
+        <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/mailchimp" component={Mailchimp} />
-          {/* <Route exact path="/Contact" component={Contact} /> */}
+         
 
         </Switch>
         <Footer/>

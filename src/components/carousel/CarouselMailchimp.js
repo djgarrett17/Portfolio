@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import ReactCardCarousel from 'react-card-carousel';
 import './assets/css/style.css';
+import { Link } from 'react-router-dom'
 
 class MyCarouselMailchimp extends Component {
 
@@ -55,6 +56,7 @@ class MyCarouselMailchimp extends Component {
     return {
       color: "lightgray",
       display: "flex",
+      flexDirection: "column",
       width: "80%",
       justifyContent: "center",
       alignItems: "center",
@@ -66,6 +68,15 @@ class MyCarouselMailchimp extends Component {
     };
   }
 
+  
+  static get LINK_STYLE() {
+    return {
+      color: "white",
+      lineHeight: "140%",
+
+    //   margin: "auto"
+    };
+  }
 
   render() {
     return (
@@ -96,6 +107,18 @@ class MyCarouselMailchimp extends Component {
           </a>
           <div style={ MyCarouselMailchimp.CARD_DESC_STYLE }>
             <p>Conducted an A/B Test testing which subtitle works best</p>
+          </div>
+        </div>
+        <div style={ MyCarouselMailchimp.CARD_STYLE }>
+          <a style={ MyCarouselMailchimp.INNER_CARD_STYLE } target="_blank" href="https://kingpong.co">
+            <img src="./assets/images/ABtest.png" height="80px"/>
+            <p>EMAIL TEMPLATES</p>
+          </a>
+          <div style={ MyCarouselMailchimp.CARD_DESC_STYLE }>
+            <span>Developed email templates with HTML:</span>
+            <a style={ MyCarouselMailchimp.LINK_STYLE } href="https://flamboyant-ardinghelli-d63e76.netlify.app/index.html"><span>Shop Template</span></a>
+            <a style={ MyCarouselMailchimp.LINK_STYLE } href="https://flamboyant-ardinghelli-d63e76.netlify.app/emailtemplate2.html"><span>News Template</span></a>
+            <a style={ MyCarouselMailchimp.LINK_STYLE } href="https://flamboyant-ardinghelli-d63e76.netlify.app/emailtemplate3.html"><span>Story Template</span></a>
           </div>
         </div>
       </ReactCardCarousel>
