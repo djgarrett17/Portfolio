@@ -70,7 +70,7 @@ class MyCarouselMailchimpMobile extends Component {
     return {
       color: "white",
       lineHeight: "140%",
-      fontSize: "10px",
+      fontSize: "12px",
 
     //   margin: "auto"
     };
@@ -115,7 +115,7 @@ class MyCarouselMailchimpMobile extends Component {
           </a>
           <div style={ MyCarouselMailchimpMobile.CARD_DESC_STYLE }>
             <p>Developed email templates with HTML:</p>
-            <a style={ MyCarouselMailchimpMobile.LINK_STYLE } href="https://flamboyant-ardinghelli-d63e76.netlify.app/index.html"><span>View Templates</span></a>
+            <a style={ MyCarouselMailchimpMobile.LINK_STYLE } href="https://flamboyant-ardinghelli-d63e76.netlify.app/index.html"><p>View Templates</p></a>
           </div>
         </div>
       </ReactCardCarousel>

@@ -116,7 +116,7 @@ class MyCarouselMailchimp extends Component {
           </a>
           <div style={ MyCarouselMailchimp.CARD_DESC_STYLE }>
             <p>Developed email templates with HTML:</p>
-            <a style={ MyCarouselMailchimp.LINK_STYLE } href="https://flamboyant-ardinghelli-d63e76.netlify.app/index.html"><span>View Templates</span></a>
+            <a style={ MyCarouselMailchimp.LINK_STYLE } href="https://flamboyant-ardinghelli-d63e76.netlify.app/index.html"><p>View Templates</p></a>
           </div>
         </div>
       </ReactCardCarousel>
