@@ -110,7 +110,7 @@ class MyCarouselMailchimpMobile extends Component {
         </div>
         <div style={ MyCarouselMailchimpMobile.CARD_STYLE }>
           <a style={ MyCarouselMailchimpMobile.INNER_CARD_STYLE } target="_blank" href="https://kingpong.co">
-            <img src="./assets/images/template.png" height="50px"/>
+            <img src="./assets/images/template2.png" height="50px"/>
             <p>EMAIL TEMPLATES</p>
           </a>
           <div style={ MyCarouselMailchimpMobile.CARD_DESC_STYLE }>
