@@ -8,7 +8,12 @@ import Footer from './components/Footer/Footer.js'
 // // Pages
 import Home from './pages/Home.js';
 import Mailchimp from './pages/Mailchimp.js';
+import ReactGA from 'react-ga';
 
+
+
+const TRACKING_ID = "UA-154629017-2"; // YOUR_OWN_TRACKING_ID
+ReactGA.initialize(TRACKING_ID);
 
 
 const App = () => {
