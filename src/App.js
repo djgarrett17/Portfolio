@@ -9,17 +9,22 @@ import Footer from './components/Footer/Footer.js'
 import Home from './pages/Home.js';
 import Mailchimp from './pages/Mailchimp.js';
 import ReactGA from 'react-ga';
+import { createBrowserHistory } from 'history';
 
+const history = createBrowserHistory();
 
-
-const TRACKING_ID = "UA-154629017-2"; // YOUR_OWN_TRACKING_ID
+const TRACKING_ID = "UA-154629017-3"; // YOUR_OWN_TRACKING_ID
 ReactGA.initialize(TRACKING_ID);
 
+history.listen(location => {
+  ReactGA.set({ page: location.pathname }); // Update the user's current page
+  ReactGA.pageview(location.pathname); // Record a pageview for the given page
+});
 
 const App = () => {
-
+  ReactGA.pageview('/about/contact-us');
   return (
-    // <Router>
+    <Router history={history}>
       
       
       <div style={Container}>
@@ -34,7 +39,7 @@ const App = () => {
         <Footer/>
       </div>
       
-    // </Router>
+    </Router>
   )
 }
 
