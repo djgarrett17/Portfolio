@@ -19,7 +19,7 @@ ReactGA.initialize(TRACKING_ID);
 
 
 const App = () => {
-  ReactGA.pageview('/about/contact-us');
+  ReactGA.pageview('/');
   return (
     <Router>
       
