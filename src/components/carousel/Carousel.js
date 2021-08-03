@@ -55,13 +55,21 @@ class MyCarousel extends Component {
     return {
       color: "lightgray",
       display: "flex",
+      flexDirection: "column",
       width: "80%",
       justifyContent: "center",
       alignItems: "center",
       textAlign: "center",
       
+    //   margin: "auto"
+    };
+  }
 
-      
+  static get LINK_STYLE() {
+    return {
+      color: "white",
+      lineHeight: "140%",
+
     //   margin: "auto"
     };
   }
@@ -105,6 +113,16 @@ class MyCarousel extends Component {
           </a>
           <div style={ MyCarousel.CARD_DESC_STYLE }>
             <p>The website of a published book about COVID-19</p>
+          </div>
+        </div>
+        <div style={ MyCarousel.CARD_STYLE }>
+          <a style={ MyCarousel.INNER_CARD_STYLE } target="_blank" href="https://ecstatic-curran-b1c781.netlify.app/index.html">
+            <img src="./assets/images/template2.png" height="80px"/>
+            <p>EMAIL TEMPLATES</p>
+          </a>
+          <div style={ MyCarousel.CARD_DESC_STYLE }>
+            <p>Developed email templates with HTML:</p>
+            <a style={ MyCarousel.LINK_STYLE } href="https://ecstatic-curran-b1c781.netlify.app/index.html"><p>View Templates</p></a>
           </div>
         </div>
       </ReactCardCarousel>
