@@ -11,6 +11,10 @@
     font-size: xx-large;
     
 }
+.subscribeTxt{
+    font-size: larger;
+    margin-bottom: 30px;
+}
 .carouselDiv{
     height: 400px;
     margin-top: 250px; 
@@ -20,6 +24,29 @@
 .carouselMobile{
     display: none;
 }
+.emailDiv{
+    margin-bottom: 40px;
+}
+
+div > form{
+    display: flex;
+    justify-content: space-between;
+}   
+form > input {
+    font-weight: 100;
+    color: rgb(216, 216, 216);
+    background: white;
+    border: 2px solid black;
+    padding: 16px 32px;
+    width: 80%;
+    font-size: larger;
+}
+form > button {
+    background: black;
+    text-transform: uppercase;
+    color: white;
+    border: none;
+} 
 
 @media only screen and (max-width: 768px){
 .carouselDesktop{
