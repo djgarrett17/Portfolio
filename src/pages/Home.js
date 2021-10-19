@@ -37,9 +37,15 @@ const Home = () => {
             <Mailchimp 
                 action="https://kingpong.us7.list-manage.com/subscribe/post?u=bdd1fa2695abb33207f964b14&amp;id=ed81bdc154"
                 fields={[
+                    {
+                        name: 'FNAME',
+                        placeholder: 'First name',
+                        type: 'text',
+                        required: true
+                      },
                   {
                     name: 'EMAIL',
-                    placeholder: 'Enter your email',
+                    placeholder: 'Email',
                     type: 'email',
                     required: true
                   }
