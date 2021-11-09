@@ -116,13 +116,13 @@ class MyCarousel extends Component {
           </div>
         </div>
         <div style={ MyCarousel.CARD_STYLE }>
-          <a style={ MyCarousel.INNER_CARD_STYLE } target="_blank" href="https://ecstatic-curran-b1c781.netlify.app/index.html">
+          <a style={ MyCarousel.INNER_CARD_STYLE } target="_blank" href="https://devinsemailtemplates.com">
             <img src="./assets/images/template2.png" height="80px"/>
             <p>EMAIL TEMPLATES</p>
           </a>
           <div style={ MyCarousel.CARD_DESC_STYLE }>
             <p>Developed email templates with HTML:</p>
-            <a style={ MyCarousel.LINK_STYLE } href="https://ecstatic-curran-b1c781.netlify.app/index.html"><p>View Templates</p></a>
+            <a style={ MyCarousel.LINK_STYLE } href="https://devinsemailtemplates.com"><p>View Templates</p></a>
           </div>
         </div>
       </ReactCardCarousel>
