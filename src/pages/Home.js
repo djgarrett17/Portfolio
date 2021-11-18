@@ -30,7 +30,7 @@ const Home = () => {
                     <MyCarouselMobile/>
                 </div>
             </div>
-            <div>
+            <div className="subscribeDiv">
                 <p className="subscribeTxt">Subscribe to my newsletter to receive your prize!</p>
             </div>
             <div className="emailDiv">
@@ -57,7 +57,7 @@ const Home = () => {
                       error: "An unexpected internal error has occurred.",
                       empty: "Please enter valid email.",
                       duplicate: "Too many subscribe attempts for this email address",
-                      button: <BsArrowRightShort size={"32px"} />
+                      button: <BsArrowRightShort size={"32px"} /> 
                     }
                   }
                 />

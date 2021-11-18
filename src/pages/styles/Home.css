@@ -14,6 +14,7 @@
 .subscribeTxt{
     font-size: larger;
     margin-bottom: 30px;
+    text-align: center;
 }
 .carouselDiv{
     height: 400px;
@@ -30,7 +31,8 @@
 
 div > form{
     display: flex;
-    justify-content: space-between;
+    width: 100%;
+    /* justify-content: space-between; */
 }   
 form > input {
     font-weight: 100;
@@ -47,19 +49,40 @@ form > button {
     color: white;
     border: none;
 } 
+form > div {
+    font-size: 10px;
+    height: auto;
+    padding: 0px 8px;
+}
 
-@media only screen and (max-width: 768px){
-.carouselDesktop{
-    display: none;
-}
-.carouselMobile{
-    display: flex;
-}
-.carouselDiv{
-    margin-top: 180px; 
-    margin-bottom: -160px;
-}
-}
+    @media only screen and (max-width: 768px){
+        .carouselDesktop{
+            display: none;
+        }
+        .carouselMobile{
+            display: flex;
+        }
+        .carouselDiv{
+            margin-top: 180px; 
+            margin-bottom: -160px;
+        }
+        div > form{
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            height: 180px;
+        } 
+        .subscribeDiv{
+            width: 80%;
+            justify-content: center;
+        }
+        .emailDiv{
+            width: 60%;
+        }
+        form > button {
+            width: 80px;
+        } 
+}   
 
 
 
