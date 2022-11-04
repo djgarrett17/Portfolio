@@ -97,7 +97,7 @@ class MyCarousel extends Component {
             <p>The website of King Pong LLC, an online table tennis business</p>
           </div>
         </div>
-        <div style={ MyCarousel.CARD_STYLE }>
+        {/* <div style={ MyCarousel.CARD_STYLE }>
           <Link style={ MyCarousel.INNER_CARD_STYLE } to="/mailchimp">
             <img src="./assets/images/MailchimpImage.png" height="80px"/>
             <p>MAILCHIMP PROJECT</p>
@@ -105,16 +105,8 @@ class MyCarousel extends Component {
           <div style={ MyCarousel.CARD_DESC_STYLE }>
             <p>A newsletter campaign created using Mailchimp</p>
           </div>
-        </div>
-        <div style={ MyCarousel.CARD_STYLE }>
-          <a style={ MyCarousel.INNER_CARD_STYLE } target="_blank" href="https://covid-19inreal-time.com">
-            <img src="./assets/images/covid-title-red-white-no-bkgd.png" height="80px"/>
-            <p>COVID-19INREAL-TIME.COM</p>
-          </a>
-          <div style={ MyCarousel.CARD_DESC_STYLE }>
-            <p>The website of a published book about COVID-19</p>
-          </div>
-        </div>
+        </div> */}
+       
         <div style={ MyCarousel.CARD_STYLE }>
           <a style={ MyCarousel.INNER_CARD_STYLE } target="_blank" href="https://devinsemailtemplates.com">
             <img src="./assets/images/template2.png" height="80px"/>
